@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding:0
+}
+::selection {
+    background: rgb(17, 228, 158);
+}
+:root{
+    --duc-cc: green;
+    --duc-fontfamily: sans-serif;
+    background-image: url(imagestduc/images.jpg);
+    background-repeat: repeat;
+    background-size: 100px;
+    color: rgb(245, 245, 245);
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+.infologin input:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.infologin {
+    width: 18em;
+    height: 19.6rem;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    position: relative;
+    background-image: url(imagestduc/vector-modern-abstract-striped-squares-pattern-repeat-on-white-color-background-and-texture.jpg);
+    background-repeat: repeat;
+    background-size: 100px;
+    
+}
+div>input {
+    background-color: #fff;
+    color: black;
+    border: none;
+    font-size: 0.65rem;
+    padding: 0.66rem ;
+    padding-right: 4.9rem;
+    opacity: 0.8;
+    margin: 5px 0 0.6rem ;
+    width: 63%;
+}
+.formlog {
+    font-size: 0.86rem;
+    margin-bottom: 0px;
+}
+.infologin .form {
+    padding: 1rem
+}
+
+.form h1 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+button {
+    position: absolute;
+    bottom: 3.6rem;
+    background-color: rgb(22, 168, 168);
+    border: none;
+    width: 87%;
+    padding: 0.8rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);    
+}
+input:hover {
+    opacity: 1;
+}
+.buttonlogin {
+    padding: auto 1px;
+}
+.formforgotpass-register  {
+    position: absolute;
+    bottom: 34px;
+    font-size: 0.7rem;
+}
+.forgot {
+    color: chocolate;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    padding: 1.33px;
+}
+.register {
+    position: relative;
+    left: 115px;
+    color: chocolate;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 1.33px;
+
+}
+
+
+  
+/* #test11{
+    position: relative;
+    left: 15px;
+
+} */
+/* #test11::before {
+    content: "$";
+    text-align: center;
+    padding-bottom: 2.5px; 
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: -20px; 
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgb(56, 19, 158);
+    border-radius:50% ;
+    background-color: blueviolet;
+}
+#test11::after {
+    content: "$";
+    text-align: center;
+    padding-bottom: 2.5px; 
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: -20px; 
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgb(56, 19, 158);
+    border-radius:50% ;
+    background-color: blueviolet;
+} */
+
